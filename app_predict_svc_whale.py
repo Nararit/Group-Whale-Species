@@ -21,7 +21,7 @@ island_input = st.selectbox('Select island:', ['Pacific', 'Atlantic', 'Arctic'])
 culmen_length_input = st.number_input('Enter culmen length in mm (0 to 2500):', min_value=0, max_value=2500)
 culmen_depth_input = st.number_input('Enter culmen depth in mm (0 to 1000):', min_value=0, max_value=1000)
 flipper_length_input = st.number_input('Enter flipper length in mm (0 to 20000):', min_value=0, max_value=20000)
-body_mass_input = st.number_input('Enter body mass in g (1000 to 200000):', min_value=1000, max_value=5000)
+body_mass_input = st.number_input('Enter body mass in g (1000 to 200000):', min_value=1000, max_value=200000)
 sex_input = st.selectbox('Select sex:', ['Male', 'Female'])
 
 # Create a DataFrame with user input
